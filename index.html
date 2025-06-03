@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF=8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.5">
+    <title>My Dynamic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <body>
+            <header>
+                <img src="Snapchat-1457803687.jpg" alt="Laoye Oluwasemire Oluwatimilehin" id="profile-img">
+                <h1>Hello,I'm Laoye Oluwasemire Oluwatimilehin!</h1>
+                <p>Passionate about web development and creating enaging experience.</p>
+            </header>
+
+            <main>
+                <section id="about">
+                    <h2>About Me</h2>
+                    <p>I enjoy learning new technologies and bringing ideas to life through code. My focus is on building user-friendly and responsive web applications. </p>
+                </section>
+                <section id="multimedia-showcase">
+                    <h2>Multimedia-showcase</h2>
+                    <h3>My audio Greeting:</h3>
+                    <audio controls>
+                        <source src="Recording.m4a" type="audio/mpeg">
+                        Your browser does not support the audio tag.
+                    </audio>
+                    <h3>A Quick Project Video:</h3>
+                    <video controls width="320" height="240">
+                        <source
+                        src="index.html - my_dynamic_portfolio - Visual Studio Code 2025-06-02 22-48-23.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </section>
+                <section id="interactive-skills">
+                    <h2>My Skills</h2>
+                    <div class="skill-buttons">
+                        <button class="skill-btn" data-skill="STRATEGIZING">STRATEGIZING</button>
+                        <button class="skill-btn" data-skill="PATIENCE">PATIENCE</button>
+                        <button class="skill-btn" data-skill="LEADERSHIP">LEADERSHIP</button>
+                    </div>
+                    <p id="skill-description">Click a skill to learn more</p>
+            </section>
+            
+            <section id="portfolio-list">
+                <h2>My Projects</h2>
+                <div id="projects-container">
+                </div>
+            </section>
+            </main>
+
+            <footer>
+                <p>&copy; <span id="current-year"></span>Laoye Oluwasemire Oluwatimilehin. All rights reserved.</p>
+                <button id="themeToggle">Toggle Dark Mode</button>
+            </footer>
+            <script src="script.js"></script>
+        </body>
+    </head>
+</html>
